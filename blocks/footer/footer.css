@@ -3,11 +3,12 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    max-width: 1184px;
+    max-width: calc(100% - 96px);
 }
 
 @media screen and (max-width:768px) {
     .footer {
+        max-width: calc(100% - 48px);
         padding-top: 88px;
     }
 }

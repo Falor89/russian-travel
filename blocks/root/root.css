@@ -3,5 +3,5 @@
     color:white;
     margin: 0 auto;
     padding: 0;
-    width: 100%;
+    box-sizing: border-box;
 }

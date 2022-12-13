@@ -3,6 +3,6 @@
     box-sizing: border-box;
 }
 
-.place__paragraph-item:nth-of-type(2) {
+.place__paragraph-item:last-of-type {
     padding: 26px 0 0;
 }
