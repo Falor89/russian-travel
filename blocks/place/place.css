@@ -18,18 +18,13 @@
     }
 }
 
-@media screen and (max-width:1024px) {
-    .place {
-        grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
-        gap: 48px 28px;
-        padding-bottom: 73px;
-    }
-}
 @media screen and (max-width:768px) {
-  .place{
-    gap:32px;
-    grid-template-columns: 340px 1fr;
-  }
+    .place {
+        max-width: 720px;
+        padding-bottom: 73px;
+        gap: 48px 28px;
+        grid-template-columns: 340px 1fr;
+    }
 }
 
 @media screen and (max-width:738px) {
@@ -40,6 +35,7 @@
             "website"
             "image"
             "text";
-            padding-bottom: 50px;
+        gap: 32px;
+        padding-bottom: 50px;
     }
 }
