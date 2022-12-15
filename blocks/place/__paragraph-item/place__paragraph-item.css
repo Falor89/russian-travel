@@ -1,8 +1,15 @@
 .place__paragraph-item {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
+  padding-top: 26px;
+  overflow-wrap: break-word ;
 }
 
-.place__paragraph-item:last-of-type {
-    padding: 26px 0 0;
+.place__paragraph-item:first-of-type {
+  padding-top: 0;
+}
+@media screen and (max-width:320px) {
+  .place__paragraph-item{
+    max-width: 288px;
+  }
 }

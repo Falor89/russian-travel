@@ -4,6 +4,7 @@
     grid-template-rows: repeat(2, min-content);
     gap: 48px 40px;
     padding-bottom: 80px;
+    max-width: 100%;
 }
 
 .place:last-of-type {
@@ -24,6 +25,12 @@
         padding-bottom: 73px;
     }
 }
+@media screen and (max-width:768px) {
+  .place{
+    gap:32px;
+    grid-template-columns: 340px 1fr;
+  }
+}
 
 @media screen and (max-width:738px) {
     .place {
@@ -33,7 +40,6 @@
             "website"
             "image"
             "text";
-        gap: 32px;
-        padding-bottom: 50px;
+            padding-bottom: 50px;
     }
 }
